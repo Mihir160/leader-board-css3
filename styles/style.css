@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 main{
     display: flex;
@@ -20,6 +21,56 @@ hr{
     padding: 30px ;
     margin-top: 21px;
     border-radius: 5px;
+}
+/* nav styles */
+.mainnav{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 1600px;
+    height: 94px;
+    background: #562EFF;
+   
+    
+}
+.mainheader{
+    display: flex;
+    column-gap: 10%;
+    padding-top: 30px; 
+   margin-right: 10%; 
+    
+}
+.header{
+    display: flex;
+    column-gap: 40px;
+    padding-top: 10px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+.icon{
+    display: flex;
+    column-gap: 10%;
+    padding-top: 30px;
+    margin-left: 3%;
+   
+}
+.iconimg img{
+    width: 40.42px;
+    height: 51px;
+}
+.navimg img{
+    width: 51px;
+    height: 51px;
+
+}
+.icon-titile{
+    font-size: 24px;
+    color: white;
+    margin-top: -30px;
 }
 /* top players style */
 .top-players{
@@ -67,6 +118,7 @@ hr{
 }
 .blog-info{
     margin-left: 16px;
+    margin-top: -19px;
 }
 .blog-title{
     font-size: 20px;
@@ -148,7 +200,7 @@ span{
 /* mobile devices */
 @media screen and (max-width:688px) {
     .container{
-        width: 100%;
+        width: 100%; 
     }
     .players, .blogs, .courses{
        
